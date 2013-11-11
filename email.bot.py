@@ -10,7 +10,7 @@ def open_connection(verbose=False):
     hostname = "imap.gmail.com"
     port = 993
     username = "nimsphina"
-    password = "outside12"
+    password = ""
 
     connection = imaplib.IMAP4_SSL(hostname, port)
 
